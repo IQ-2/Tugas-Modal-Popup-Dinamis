@@ -1,0 +1,60 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#Buka {
+  background-color: #111;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 550;
+}
+
+.isi-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 25px 35px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 320px;
+  display: none;
+  z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+}
+
+.Background {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999999999999999999999999999999999999999999999999999999999999999999;
+}
+
+.isi-modal h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.isi-modal p {
+  font-size: 14px;
+  color: #323232;
+  margin-bottom: 20px;
+}
+
+#Tutup {
+  background-color: #e53947;
+  border: none;
+  color: white;
+  padding: 6px 18px;
+  border-radius: 6px;
+  font-size: 13px;
+}
