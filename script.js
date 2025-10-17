@@ -12,3 +12,8 @@ Tutup.addEventListener('click', () =>{
     Modal.style.display = 'none';
     Background.style.display = 'none';
 });
+
+Background.addEventListener('click', () => {
+    Modal.style.display = 'none';
+    Background.style.display = 'none';
+});
